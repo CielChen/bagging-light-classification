@@ -1,0 +1,19 @@
+# 忽略所有 .csv 结尾的文件
+*.csv
+
+# 忽略 data/ 目录下的所有文件
+data/
+
+# 忽略所有 .model 结尾的文件
+*.model
+
+# 忽略 model/ 目录下的所有文件
+model/
+
+# 忽略 GBDT_clf/ 目录下的 .csv文件和 .model文件 和result/目录
+GBDT_clf/*.csv
+GBDT_clf/*.model
+GBDT_clf/result/
+
+# 忽略 SVC_clf/ 目录下的 result/目录
+SVC_clf/result/
